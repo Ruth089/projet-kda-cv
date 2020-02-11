@@ -1,0 +1,171 @@
+header 
+{
+    display: table;
+    
+}
+.marge
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid #01afb6;
+    background-color: #e4e5e7;
+    display: table;
+    width: 80%;
+}
+.header-infos_perso
+{
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.header-infos_perso h1, .header-infos_perso h2{
+    text-align: center;
+    color:#01afb6
+}
+
+.header-infos_perso, .header-photo{
+    float: left;
+
+}
+.header-photo
+{
+    display: inline;
+    width: 25%;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+.header-photo img{
+    border-radius: 100% 100%;
+    width: 90%;
+    height: 220px;
+    margin-top: 6%;
+    margin-left: 5%;
+    border: 2px solid white;
+    display: table;
+}
+
+header{
+    border-bottom:4px solid #01afb6 ;
+    width: 100%;
+}
+
+.contact_sociaux, .adresse
+{
+    float: left;
+}
+.contact_sociaux
+{
+    margin-left: 20%;
+    display: table;
+}
+
+section
+{
+   width: 100%;
+   font-size: 18px;
+   
+}
+.section
+{
+   width: 100%;
+   display: table;
+   padding: 10px;
+}
+
+.gauche{
+    width: 25%;
+    margin-top: 200px;
+}
+.gauchee{
+    width: 25%;
+   
+}
+.droite
+{
+    width: 60%;
+    margin-top: 10px;
+    border-left: 2px solid #01afb6 ;
+}
+.droite, .gauche, .gauchee, .competence-langue
+{
+    float: left;
+    margin-left: 20px;
+    display: table;
+}
+
+.competence-langue ul li
+{
+    list-style: none;
+    line-height: 35px;
+}
+.competence, .langue
+{
+    float: left;
+    display: table;
+    
+}
+.competence
+{
+width: 45%;
+border-right: 2px solid  #01afb6;
+display: table;
+}
+.langue
+{
+    width: 45%;
+}
+.droite div{
+    width: 100%;
+    display: table;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.droite div li
+{
+list-style: none;
+float: left;
+margin-right: 50px
+}
+.new-section
+{
+    width: 100%; 
+   display: table;
+   padding: 10px;
+}
+.competence-langue
+{
+    width: 25%;
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width: 1064px)
+{
+    .header-infos_perso, .header-photo{
+        float: none;
+        width: 100%;
+    }
+    .header-photo img
+    {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .droite, .gauche, .gauchee, .competence-langue
+    {
+        float:none;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .droite, .gauche, .gauchee, .competence-langue
+    {
+      
+        margin-left: 20px;
+       
+    }
+}
